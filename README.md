@@ -46,6 +46,10 @@
 | **Column 3**             | Pin 8           | Column 3 of the keypad                                                       |
 | **Column 4**             | Pin 9           | Column 4 of the keypad                                                       |
 
+### Block diagram
+![Diagramă fără titlu drawio](https://github.com/user-attachments/assets/dee32cf2-ad08-4ef8-ac74-d7f645f0a72a)
+
+
 
 # Software Design
 For this project, I am using PlatformIO as the development environment.
