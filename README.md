@@ -3,12 +3,27 @@
 # SUDOKU
 
 </div>
-   
+Sudoku is a logic-based puzzle game where the player fills a 9x9 grid with numbers 1 through 9. The goal is to ensure that no number repeats in any row, column, or 3x3 subgrid. This project brings Sudoku into an interactive format using an Arduino-based hardware setup. The player inputs numbers via a 4x4 keypad and views the game on an LCD screen, creating an engaging embedded systems experience.
 # Introduction
 
+This project is a simple interactive puzzle game where the player solves Sudoku by entering numbers via a keypad. The game is displayed on a TFT LCD screen, and the hardware is managed by an Arduino microcontroller.
+The purpose of this project is to deepen knowledge about embedded programming by implementing a real-world application. I chose Sudoku because it offers both a mental challenge and a fun way to learn about hardware and software integration. This project represents progress in my learning journey and an opportunity to implement concepts such as SPI communication and keypad input handling.
 # General Description
 
+The game begins by displaying a Sudoku puzzle on the TFT screen. The player uses a 4x4 keypad to navigate the grid and input numbers.
+The program validates each move to ensure it complies with Sudoku rules.
+Once the grid is completed correctly, a congratulatory message is displayed.
+The player can restart the game to try another puzzle.
+
+#### For this project, I will use various features from previous lab exercises:
+   - Timers & Interrupts (Lab 2): Used to manage grid updates and user input validation.
+   - Keypad Input (Lab 3): Processes number entries and directional controls for navigating the grid.
+   -  SPI Communication (Lab 4): Handles data transfer between the Arduino and the TFT LCD.
+     
 # Hardware Design
+#### General Description :
+This project uses a 1.8" TFT LCD display with SPI protocol for displaying the Sudoku grid. A 4x4 keypad allows the user to input numbers and navigate the grid. The hardware setup is powered by an Arduino Uno and includes basic components like connecting wires, a breadboard, and resistors.
+
 #### Component List : 
 | Name                               | Source                   |
 |------------------------------------|--------------------------|
